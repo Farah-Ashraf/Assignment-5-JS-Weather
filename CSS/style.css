@@ -1,0 +1,91 @@
+body{
+    background-color: #1E202B;
+}
+
+.content-div{
+    background-image: url(../Images/banner.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+.input-div input{
+    background-color: #1E202B;
+}
+
+
+input::placeholder{
+    color: gray;
+    font-size: 18px;
+}
+
+.input-div button{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+/* links css */
+.custom-nav {
+    padding: 4px 24px !important;
+    border: 2px solid #1E202B;
+    border-radius: 24px;
+
+}
+.custom-nav:hover {
+    border-color: rgb(13, 202, 240) ;
+    color: rgb(13, 202, 240) !important;
+}
+
+
+.card-header{
+    background-color: #2D303D ;
+    color: #9EC1C8;
+}
+
+
+.weather-card{
+    background-color: #323544;
+}
+
+
+.middle-card-header{
+
+    background-color: #222530;
+
+}
+
+.middle-card{
+    background-color: #262936;
+
+}
+
+.degree-number span{
+
+    font-size:90px;
+
+}
+
+
+footer{
+    background-color: #262936;
+}
+
+.social-links a{
+
+    width: 60px;
+    height: 60px;
+    background-color: #1e202b;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(13, 202, 240);
+}
+
+.social-links a:hover{
+
+    color: white;
+    background-color: rgb(13, 202, 240);
+}
